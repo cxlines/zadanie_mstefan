@@ -1,0 +1,36 @@
+{
+  "Name": "testinput",
+  "Files": [
+    {
+      "Name": "loremipsum1.pdf",
+      "Extension": ".pdf"
+    },
+    {
+      "Name": "loremipsum2.txt",
+      "Extension": ".txt"
+    }
+  ],
+  "Subdirectories": [
+    {
+      "Name": "secondlevel",
+      "Files": [
+        {
+          "Name": "loremipsum3.pdf",
+          "Extension": ".pdf"
+        }
+      ],
+      "Subdirectories": [
+        {
+          "Name": "third level",
+          "Files": [
+            {
+              "Name": "loremipsum4.rtf",
+              "Extension": ".rtf"
+            }
+          ],
+          "Subdirectories": []
+        }
+      ]
+    }
+  ]
+}
